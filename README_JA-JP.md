@@ -1,6 +1,6 @@
 <div align="center">
   <img src="src/assets/logo-cover.png" width=256></img>
-  <p><strong>全てのAIと同時にチャットし、ベストを見つける</strong></p>
+  <p><strong>全てのAIと同時にチャットし、最適解を見つける</strong></p>
 
 [Deutsch](README_DE-DE.md) | [English](README.md) | [Español](README_ES-ES.md) | [Français](README_FR-FR.md) | 日本語 | [한국어](README_KO-KR.md) | [Tiếng Việt](README_VI-VN.md) | [简体中文](README_ZH-CN.md)
 
@@ -64,6 +64,16 @@ ChatALLのだいたいのユーザーはこんな感じ：
 
 - [ ] フロントエンドをGitHub Pagesにデプロイする。
 
+## プライバシー
+
+すべてのチャット履歴、設定、ログインデータはコンピューターにローカルに保存されます。
+
+ChatALLは、製品の改善に役立てるために以下の匿名の使用データを収集します。:
+
+- どの AI ボットにプロンプ​​トが表示されるか、またプロンプトの長さ。プロンプトの内容は含まれません。
+
+- 回答の長さ、および削除/強調表示された回答。例外として回答の内容は含まれません。
+
 ## 前提条件
 
 ChatALL はプロキシではなく、クライアントです。そのため、以下のことが必要です:
@@ -78,7 +88,7 @@ https://github.com/sunner/ChatALL/releases から最新版をダウンロード�
 
 ### Windows の場合
 
-\*-win-x64.exe ファイルをダウンロードし、セットアップを進めてください。(x86 CPUは \*-win.exe をダウンロードしてください)
+\*-win-x64.exe ファイルをダウンロードし、セットアップを進めてください。(x86 CPUは \*-win.exe をダウどの AI ボットにプロンプ​​トが表示されるか、またプロンプトの長さ。プロンプトの内容は含まれません。どの AI ボットにプロンプ​​トが表示されるか、またプロンプトの長さ。プロンプトの内容は含まれません。ンロードしてください)
 
 ### macOS の場合
 
@@ -90,7 +100,7 @@ Intel Macは、\*-mac-x64.dmg ファイルをダウンロードしてくださ�
 
 ### Linux の場合
 
-.AppImage ファイルをダウンロードし、実行可能な状態にしてクリックで実行してください。
+debian ベースのディストリビューション: .deb ファイルをダウンロードし、ダブルクリックしてソフトウェアをインストールします。Arch ベースのディストリビューション: [ここで](https://aur.archlinux.org/packages/chatall-bin) AUR から ChatALL をクローンできます。手動でインストールすることも、yay や paru などの AUR ヘルパーを使用してインストールすることもできます。その他のディストリビューション: .AppImage ファイルをダウンロードして実行可能にし、クリックして実行します。[AppimageLauncher](https://github.com/TheAssassin/AppImageLauncher) を使用することもできます。
 
 ## トラブルシューティング
 
